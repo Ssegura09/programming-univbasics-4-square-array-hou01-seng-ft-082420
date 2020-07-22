@@ -1,4 +1,3 @@
-def square_array(numbers)
-   numbers = [1, 2, 3]
-   Math.sqrt(numbers)
+def square_array(array)
+    Array.new(array.size) { |i| array[i] ** 2}
 end
